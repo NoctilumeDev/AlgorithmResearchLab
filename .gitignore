@@ -1,0 +1,30 @@
+# Python local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Local credentials and editor state
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.log
+Thumbs.db
+.DS_Store
+
+# Local datasets and research output; retain directory documentation
+/data/
+/artifacts/*
+!/artifacts/README.md
